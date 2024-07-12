@@ -48,8 +48,8 @@ The main function takes as input a String containing the name of a data folder l
     <strong>[ id_shop, discount_percentage, discount_float, min_spending , min_quantity]</strong>
     <ul style="list-style-type:square;">
       <li><strong>id_shop</strong>: Set this entry as the number referring to the row of the shop in shipping.csv you have a discount for</li>
-      <li><strong>discount_percentage</strong>: This value is the percentage corresponding to the discount you have got (Example 0.20)</li>
-      <li><strong>discount_float</strong>: This value is the float amount corresponding to the discount you have got (Example 4.50)</li>
+      <li><strong>discount_percentage</strong>: If your discount is a percentage over the total one, set this as the percentage of the discount you have got (Example 0.20)</li>
+      <li><strong>discount_float</strong>: If your discount is an amount to be decreased, set this entry as the float amount corresponding to the discount you have got (Example 4.50)</li>
       <li><strong>min_spending</strong>: Set this value as the minimum amount that has to be spent to get access to the discount</li>
       <li><strong>min_quantity</strong>: Set this value as the minimum quantity of items that have to be bought to get access to the discount</li>
     </ul>
