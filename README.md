@@ -4,13 +4,17 @@ This is a code written in MATLAB language which I wrote after my studies of Oper
 It can optimize the total spending for anything that has to be bought, the main goal is to help the decision-making process of choosing where to buy partial or complete sets of items from, given every shop with its prices and shipping costs.</br></br>
 p.s. I wrote this code for my own needs, because I had to buy a complete collection of books.
 # How to use
+<ol>
+<li><h3> Execute through executable file</h3>
+  Just unpack the zip anywhere, fill the csv files inside the data folder and run the .exe
+</li>
+<li><h3> Execute trough code itself (Useful to add improvements or make the code fits your own needs)</h3>
 <strong>Read Carefully</strong> To run the code, your MATLAB enviroment <strong>has</strong> to include the following toolboxes:
 <ul><li><strong>Optimization Toolbox</strong></li> <li><strong>Global Optimization Toolbox</strong></li></ul>
 The main function takes as input a String containing the name of a data folder located in the same path of the executable function. This folder <strong>has to contain 3 or 4 csv files</strong> called "shipping.csv", "demand.csv", "shoprice.csv" and if needed "discount.csv".</br></br>
-(If no string is given as parameter to the function, it will use as <strong>default folder "data"</strong>)
-
-## How to format csv files
-### No entry can be missing otherwise code won't run
+(If no string is given as parameter to the function, it will use as <strong>default folder "data"</strong>)</li></ol>
+<h2> How to format csv files </h2>
+<h3> No entry can be missing otherwise code won't run </h3>
 <ul>
   <li><strong>shipping.csv</strong> This csv file has to cointain in its rows the following entries:</li>
     <strong>[ shop_name, shipping_cost1, shipping_cost2, max_items1, max_items2, min_items2, min_total, vat_value ]</strong>
