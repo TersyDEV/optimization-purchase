@@ -9,7 +9,7 @@ p.s. I wrote this code for my own needs, because I had to buy a complete collect
 <li><h3> Execute through executable file</h3>
   Just unpack the zip anywhere, fill the csv files inside the data folder and run the .exe
 </li>
-<li><h3> Execute trough code itself (Useful to add improvements or make the code fits your own needs)</h3>
+<li><h3> Run the code itself (Useful to add improvements or make the code fits your own needs)</h3>
 <strong>Read Carefully</strong> To run the code, your MATLAB enviroment <strong>has</strong> to include the following toolboxes:
 <ul><li><strong>Optimization Toolbox</strong></li> <li><strong>Global Optimization Toolbox</strong></li></ul>
 The main function takes as input a String containing the name of a data folder located in the same path of the executable function. This folder <strong>has to contain 3 or 4 csv files</strong> called "shipping.csv", "demand.csv", "shoprice.csv" and if needed "discount.csv".</br></br>
