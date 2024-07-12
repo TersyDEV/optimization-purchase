@@ -27,7 +27,7 @@ The main function takes as input a String containing the name of a data folder l
       <li><strong>max_items2</strong>: Maximum number of items that can be bought at shipping_cost2</li>
       <li><strong>min_items2</strong>: Minimum quantity of items that have to be bought to get access to the shipping_cost2</li>
       <li><strong>min_total</strong>: Minimum value that has to be spent to get access to the shipping_cost2</li>
-      <li><strong>vat_value</strong>: If not already included in the list prices set this as the value of the VAT percentage (Example 0.04)</li>
+      <li><strong>vat_value</strong>: If not already included in the provided prices set this as the value of the VAT percentage (Example 0.04)</li>
     </ul></br>
 
   <li><strong>demand.csv</strong> This csv file has to cointain in its rows the following entries:</li>
