@@ -52,7 +52,11 @@ The main function takes as input a String containing the name of a data folder l
       <li><strong>discount_float</strong>: If your discount is an amount to be decreased, set this entry as the float amount corresponding to the discount you have got (Example 4.50)</li>
       <li><strong>min_spending</strong>: Set this value as the minimum amount that has to be spent to get access to the discount</li>
       <li><strong>min_quantity</strong>: Set this value as the minimum quantity of items that have to be bought to get access to the discount</li>
-    </ul>
+
+### Assign to every void value zero
+  </ul>
 </ul>
+
+
 
 # Work in progress
