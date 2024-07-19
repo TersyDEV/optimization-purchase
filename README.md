@@ -18,7 +18,7 @@ The main function takes as input a String containing the name of a data folder l
 <h3> No entry can be missing otherwise code won't run </h3>
 <ul>
   <li><strong>shipping.csv</strong> This csv file has to cointain in its rows the following entries:</li>
-    <strong>[ shop_name, shipping_cost1, shipping_cost2, max_items1, max_items2, min_items2, min_total, vat_value ]</strong>
+    <strong>[ shop_name, shipping_cost1, shipping_cost2, max_items1, max_items2, min_items2, min_total2, vat_value ]</strong>
     <ul style="list-style-type:square;">
       <li><strong>shop_name</strong>: quite self-explanatory lmao</li>
       <li><strong>shipping_cost1</strong>: Standard shipping cost to buy from the shop</li>
@@ -26,7 +26,7 @@ The main function takes as input a String containing the name of a data folder l
       <li><strong>max_items1</strong>: Maximum number of items that can be bought at shipping_cost1</li>
       <li><strong>max_items2</strong>: Maximum number of items that can be bought at shipping_cost2</li>
       <li><strong>min_items2</strong>: Minimum quantity of items that have to be bought to get access to the shipping_cost2</li>
-      <li><strong>min_total</strong>: Minimum value that has to be spent to get access to the shipping_cost2</li>
+      <li><strong>min_total2</strong>: Minimum value that has to be spent to get access to the shipping_cost2</li>
       <li><strong>vat_value</strong>: If not already included in the provided prices set this as the value of the VAT percentage (Example 0.04)</li>
     </ul></br>
 
